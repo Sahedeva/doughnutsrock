@@ -1,5 +1,7 @@
 # The Ultimate James Bond Fan Site
 
+**20 min**
+
 Your client has an awesome James Bond website that they want to make responsive. However, they don't want to modify their existing HTML, so they've asked you to **only compose a new stylesheet**.
 
 Notes:
