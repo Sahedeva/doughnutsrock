@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+
+.box {
+	display: inline-block;
+	height: 75px;
+	text-align: center;
+}
+.thirds	{
+	width: 33.3%;
+}
+
+.quarters {
+	width: 25%;
+}
+
+.whole {
+	width: 100%;
+}
