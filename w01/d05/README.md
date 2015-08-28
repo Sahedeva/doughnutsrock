@@ -1,4 +1,7 @@
 #RESPONSIVE THEMES
+
+**Pair Programming Exercise**
+
 There's both good news and bad news. The good news is that we found the perfect responsive theme, the bad news is that with all the money we spent on sweets last week we don't have enough to purchase it.
 
 In today's lab we're going to take an existing responsive theme and attempt to recreate it using our knowledge of HTML and CSS.
