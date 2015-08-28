@@ -16,6 +16,7 @@ http://themes.getbootstrap.com/products/application
  
 ###REQUIREMENTS
 - At a minimum, the design should support a full desktop and mobile screen size. For our purposes today, let's say 640px and below is considered mobile.
+- Don't worry about using any of the existing text or images on the theme for this lab. You can, but feel free to use your own images or placeholders even.
 
 ###OPTIONAL
 - Use a CSS framework like Bootstrap.
