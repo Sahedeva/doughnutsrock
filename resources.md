@@ -55,6 +55,8 @@
 - [24 Javascript Best Practices for Beginners](http://code.tutsplus.com/tutorials/24-javascript-best-practices-for-beginners--net-5399)
 - [Objects as Associative Arrays](http://www.quirksmode.org/js/associative.html)
 - [Getting Out of Binding Situations in Javascript](http://www.alistapart.com/articles/getoutbindingsituations)
+- [Understanding Scope and Context in Javascript](http://ryanmorr.com/understanding-scope-and-context-in-javascript/)
+- [Everything You Wanted to Know about Javascript Scope](http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
 
 ##### jQuery
 - [Learn jQuery](http://learn.jquery.com/)
