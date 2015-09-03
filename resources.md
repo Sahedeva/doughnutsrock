@@ -6,6 +6,7 @@
 ## Git
 - [Pro Git](http://git-scm.com/book)
 - [Git Immersion](http://gitimmersion.com): A step-by-step guide to Git in plain English, with a fancy user interface
+- [Atlassian Git Guide](https://www.atlassian.com/git/): Awesome guide to using Git collaboratively, with tutorials
 - [Try Git](https://try.github.io): Code School's fully interactive Git tutorial. Also looks pretty fancy.
 - [Commits from Last Night](http://www.commitlogsfromlastnight.com/): NSFW - funny commit messages.
 - [Git Happens (video)](https://www.youtube.com/watch?v=Dv8I_kfrFWw)
