@@ -1,0 +1,153 @@
+/** {
+	box-sizing: border-box;
+}*/
+
+.hero1 {
+	visibility: visible;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 90%;
+}
+
+.hero2 {
+	display: none;
+	text-align: center;
+}
+
+.phone-tablet {
+	display: block;
+}
+
+.message {
+	text-align: center;
+}
+
+.copy-1 {
+	display: inline;
+	text-align: center;
+}
+
+.copy-2 {
+	display: none;
+	text-align: center;
+}
+
+.hero-bg {
+	background-image: url("../images/iceland.jpg");
+	background-size: 100% 100%;
+	height: 200px;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+}
+
+.davepara {
+	margin: 0;
+}
+
+#mssg-element {
+	width: 90%;
+	border-radius: 3px;
+}
+
+#visit {
+	background-color: pink;
+	border-radius: 2px;
+
+	padding: 10px;
+}
+
+#hero {
+	border-radius: 100px;
+	height: 85px;
+	border: 3px solid white;
+	margin-top: 150px;
+}
+
+.container {
+	background-color: #CCCCFF;
+}
+
+.about {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.dave {
+		background-color: white;
+		border-radius: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 5px;
+		text-align: center;
+		margin-bottom: 10px;
+}
+
+#iceland {
+	height: 250px;
+	max-width: 80%;
+	margin-left: 35px;
+}
+
+.sponds {
+	background-color: white;
+	border-radius: 5px;
+}
+#hero-small {
+	border-radius: 100px;
+	height: 50px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.mess {
+	background-color: white;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+td {
+	padding-right: 20px;
+	text-align: center;
+}
+
+.colcent {
+	text-align: left;
+	padding-left: 10px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+@media (max-width: 980px) {
+	.hero1 {
+		visibility: hidden;
+		text-align: center;
+	}
+	.hero2 {
+		display: block;
+		text-align: center;
+	}
+
+	.phone-tablet {
+		display: none;
+	}
+
+	.message {
+		text-align: center;
+	}
+
+	.copy-1 {
+		display: none;
+		text-align: center;
+	}
+
+	.copy-2 {
+		display: inline;
+		text-align: center;
+	}
+}
+
+

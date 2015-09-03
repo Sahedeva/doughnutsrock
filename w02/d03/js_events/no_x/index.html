@@ -21,6 +21,20 @@
   <script type="text/javascript">
   	
   	// Add your event handling code
+    $(function(){
+
+
+      $("#filtered").on("keypress", function(e) {
+    
+      if (e.which == 120 || e.which == 88) {
+        return false;
+     
+      } 
+      });
+
+
+
+    });
 
   </script>
 </body>

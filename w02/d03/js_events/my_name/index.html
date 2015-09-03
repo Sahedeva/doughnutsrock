@@ -37,9 +37,19 @@
   <h1>Hello, my name is <span id="first">__________</span> <span id="second">__________</span> and I like long walks on the beach.</h1>
 
   <script type="text/javascript">
-
+    $(function() {
+      $('<select><option value="Mr.">Mr.</option><option value="Mrs.">Mrs.</option><option value="Ms.">Ms.</option><option value="Dr.">Dr.</option></select>').prependTo('#name_form')
     // Write your event handling code here
-  
+    var $link = $('#show_name');
+    $link.on('click', function() {
+      var firstName = $('#first_name').val();
+      var lastName = $('#last_name').val();
+      var titleSelect = $('select').val();
+      $("#first").html(firstName);
+      $("#second").html(lastName);
+      $("#first").prepend(titleSelect);
+      });
+    });
   </script>
 </body>
 </html>
