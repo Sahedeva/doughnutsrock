@@ -1,0 +1,87 @@
+#titleHeader {
+	background-color: green;
+	text-align: center;
+}
+
+img {
+	width: 300px;
+	margin-left: 570px;
+	border-radius: 100px;
+	margin-bottom: 15px;
+}
+
+#calculatorButtons {
+	margin-left: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.display {
+	border-radius: 20px;
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+body {
+		background-image: url("http://i.telegraph.co.uk/multimedia/archive/02357/eso-summary_2357457k.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+
+.calculator {
+	background-color: #CC99CC;
+	color: blue;
+	width: 250px;
+	margin: auto;
+	border-radius: 20px;
+}
+
+button {
+	width:50px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 2px;
+	color: blue;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.num-button {
+	padding: 12px;
+	margin: 2px;
+	border-radius: 10px;
+}
+
+#calcButton {
+	width:142px;
+	padding: 12px;
+	margin: 2px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+
+}
+
+#deleteButton {
+	width:75px;
+	padding: 12px;
+	margin: 2px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+
+}
+
+
+h3 {
+	background-color: red;
+	text-align: center;
+}
+
+h4 {
+	text-align: left;
+	color:white;
+}
