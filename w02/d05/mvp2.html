@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Simple Calculator</title>
+<link rel="stylesheet" type="text/css" href="mainrev.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.js"></script>
+<body>
+  <header>
+    <h1 id="titleHeader">Larissa and Bob's Calculator of Awesomness</h1>
+    <img src="http://static.tumblr.com/vlykcdf/lN2l9mwte/cute-kitten-303.jpg">
+  </header>
+    <section>
+<script>
+
+$(function() {
+    var count = 0;
+    var resultTemp;
+    var inputTemp;
+    var inputValTemp;
+    var $calculator = $('<div/>', {class: 'calculator', id: 'calculator'}).appendTo('section');
+    var $input = $('<input/>', {class: 'display', id: 'input'}).appendTo($calculator);
+    var $buttons = $('<div/>', {class: 'num-button', id: 'buttons'}).appendTo($calculator);
+
+    //Add buttons to the DOM
+    $.each('123+456-789*0.C/=D'.split(''), function() {
+
+        var $button = $('<button/>', {text: this.toString(), click: function () {
+            //function for button clicks
+            switch ($(this).text()) {
+
+
+              case '=':
+              count++;
+              inputTemp = $input.val();
+              inputValTemp = eval($input.val());
+              resultTemp = inputTemp + " = " + inputValTemp;
+              $('#foot').append("   (" +count + ')  ' + resultTemp);
+              try {$input.val(eval($input.val()));} catch (e) {$input.val('ERROR');}
+                //'=' will fetch the current expression string,
+                //evaluate it,
+                //and write the result back into the input/output field.
+                //This is where the calculation happens.
+                // case '=': inputTemp = $input.val();
+                //           inputValTemp = eval($input.val());
+
+
+                          // if ($input.val() != 'ERROR') {
+                            
+                          //   result.push(resultTemp);
+                          //   $('#resultFooter').html(result);
+                          // }
+
+
+                // resultTemp = $input.val() + " = " + eval($input.val());
+                //     $input.val(eval($input.val());
+                //     result.push(resultTemp)
+                //     $("#resultFooter").html(result);      
+
+                //'C' will clear the input/output field
+                break; 
+                
+                case 'C' : return $input.val('');
+                //'D' will delete the last character from the input/output field
+                break;
+
+                case 'D' : return $input.val($input.val().replace(/.$/, ''));
+                //All other buttons will add a character to the input/output field
+                break;
+
+                default: $input.val($input.val() + $(this).text());
+            } //return all of the equations to var equations + print it out
+        }}).appendTo($buttons);
+    });
+});
+</script>
+    </section>
+
+
+
+  <footer>
+    <!-- print array of results -->
+    <h3 id="titleFooter">Past Calculations</h3>
+    <h4 id="foot"></h4>
+  </footer>
+</body>

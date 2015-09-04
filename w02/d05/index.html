@@ -8,42 +8,47 @@
 </head>
 <body>
 	<header>
-		<h1 id="titleHeader">Larissa's and Bob's Calculator of Awesomness</h1>
+		<h1 id="titleHeader">Larissa and Bob's Calculator of Awesomness</h1>
+		<img src="http://static.tumblr.com/vlykcdf/lN2l9mwte/cute-kitten-303.jpg">
 	</header>
 
-</body>
+
 	<!-- style of calculator (set up)-->
-	<div id="calculator"> 
+	<div class="calculator"> 
   
     <input type="text" id="display" /> 
 
-    <form>
-		<input class= "num-button" type="button" value="1">
-		<input class= "num-button" type="button" value="2">    	
-		<input class= "num-button" type="button" value="3">
-		<input class= "plus-button" type="button" value="+">
+    <form id="calculatorButtons">
+		<button class= "num-button">1</button>
+		<button class= "num-button">2</button>
+		<button class= "num-button">3</button>
+		<button class= "num-button">+</button>
 
 		<br>
 
-		<input class= "num-button" type="button" value="4">
-		<input class= "num-button" type="button" value="5">
-		<input class= "num-button" type="button" value="6">
-		<input class= "subtract-button" type="button" value="-">
+		<button class= "num-button">4</button>
+		<button class= "num-button">5</button>
+		<button class= "num-button">6</button>
+		<button class= "num-button">-</button>
+
 		<br>
 
-		<input class= "num-button" type="button" value="7">
-		<input class= "num-button" type="button" value="8">
-		<input class= "num-button" type="button" value="9">
-		<input class= "times-button" type="button" value="*">
+		<button class= "num-button">7</button>
+		<button class= "num-button">8</button>
+		<button class= "num-button">9</button>
+		<button class= "num-button">*</button>
+
 		<br>
 
-		<input class= "num-button" type="button" value="0">
-		<input class= "decimal-button" type="button" value=".">
-		<input class= "num-button" type="button" value="C">
-		<input class= "divide-button" type="button" value="/">
+		<button class= "num-button">0</button>
+		<button class= "num-button">.</button>
+		<button class= "num-button">C</button>
+		<button class= "num-button">/</button>
+	
 		<br>
 
-		<input class= "result-button" type="button" value="Calculate">
+		<button id="calcButton" class= "num-button">Calculate</button>
+		<button id="deleteButton" class= "num-button">Delete</button>
 	</form>
           
     
@@ -51,7 +56,8 @@
 	</div>
 	<footer>
 		<!-- print array of results -->
-		<h3 id="foooter-title">Past Calculations</h3>
+		<h3 id="titleFooter">Past Calculations</h3>
 		<p id="resultFooter"></p>
 	</footer>
+</body>
 </html>
