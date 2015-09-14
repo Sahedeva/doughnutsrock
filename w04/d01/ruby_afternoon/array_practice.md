@@ -1,6 +1,8 @@
-## Arrays - Independent Practice (15 minutes)
+## Arrays - Independent Practice 
 
-Alright, practice time. Quick solo challenge, we'll be setting a timer for 15 minutes!
+**15 minutes**
+
+Alright, practice time.
 
 - Given the following list of student names, **iterate over them**, **prepending** "A+ " if their name includes an "A" in it. Make a new array if you need to
 - Then, **sort the students** so that A+ students come first
