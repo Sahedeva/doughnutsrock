@@ -15,4 +15,4 @@ students = ['Suzy', 'Daniel', 'James', 'Mary', 'Phillip', 'Siegfried']
 
 Methods you'll need: 
 
-``` .map ```, ``` .sort ```, ``` .include? ```, ``` .select ```, ``` .length ```
+``` .map ```,  ``` .include? ```, ``` .sort! ```, ``` .select ```, ``` .length ```
