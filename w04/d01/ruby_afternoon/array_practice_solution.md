@@ -1,3 +1,5 @@
+```ruby
+
 students = ['Suzy', 'Daniel', 'James', 'Mary', 'Phillip', 'Siegfried']
 
 new_students = students.map do |x|
@@ -18,3 +20,4 @@ only_a_students = new_students.select do |x|
 end
 
 puts "There are #{only_a_students.length} A+ students"
+```
