@@ -1,7 +1,9 @@
 #Twitter, but awesomer
 
+**Pair Programming**
+
 ##THE GOAL
-- Twitter is a thing today, but let's work on the next big thing. You're going to make a micro blogging application called **GROWLER** using **Sinatra**. All the cool things we've covered this week will be put to use!
+- Twitter may be dominant today, but let's start work on the next big thing. You're going to make a micro blogging application called **GROWLER** using **Sinatra**. All the cool things we've covered this week will be put to use!
 
 - **User stories:**
   - The user can write growls (micro blogs) of 142 characters maximum
@@ -35,11 +37,12 @@
 - You will need paths to: 
   - All the growls
   - A page to create new growls
+- Set up a `public` folder to store your CSS and images
 - Set up and build your views in a `views` folder
 - How will you take the user from one page to the other?
 - Move on to the `post` routes
   - How will the user create growls?
-  - How will you persist that information into your data file?
+  - How will you persist that information?
   - What view will the user see once their growl is saved? (How will they get there?)
 - **Bonus**:
   - Add a user profile page that will show only their growls
