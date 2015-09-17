@@ -9,6 +9,15 @@
   - The user can write growls (micro blogs) of 142 characters maximum
   - The user can see all the growls that have been written 
 
+##Review
+
+- Ruby
+  - Classes and objects
+- Sinatra
+  - Routes
+  - Parameters
+  - Sessions
+
 ##PHASES
 
 ###PHASE 1 - NO COMPUTERS
