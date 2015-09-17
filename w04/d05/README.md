@@ -1,7 +1,7 @@
 #Twitter, but awesomer
 
 ##THE GOAL
-- Twitter is a thing but we can do better. You're going to make a micro blogging application called **GROWLER** using **Sinatra**. All the cool things we've covered this week will be put to use!
+- Twitter is a thing today, but let's work on the next big thing. You're going to make a micro blogging application called **GROWLER** using **Sinatra**. All the cool things we've covered this week will be put to use!
 
 - **User stories:**
   - The user can write growls (micro blogs) of 142 characters maximum
