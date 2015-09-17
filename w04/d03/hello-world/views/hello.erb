@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Different Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <% if params['name'] %>
+      Hello <%= params['name'] %>
+    <% else %>
+      Goodbye
+    <% end %>
+  </body>
+</html>
