@@ -86,6 +86,8 @@
 - [Learn to Program](https://pine.fm/LearnToProgram/): A general programming walkthrough, using Ruby as the intro language.
 - [A 'Poignant' Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/): Guide to Ruby from an... interesting perspective
 - [Ruby Koans](http://rubykoans.com/): Find the path to Ruby enlightenment
+- [JS-Ruby Comparison](http://agentcooper.io/js-ruby-comparison/): See the same code in Ruby and Javascript, side by side to compare
+- [Ruby Symbols vs. Strings](http://www.reactive.io/tips/2009/01/11/the-difference-between-ruby-symbols-and-strings/)
 
 ##### Sinatra
 - [Intro to Sinatra](http://www.sinatrarb.com/intro.html)
