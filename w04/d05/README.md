@@ -11,6 +11,7 @@
 
 - Ruby
   - Classes and objects
+  - Gems
 - Sinatra
   - Routes
   - Parameters
