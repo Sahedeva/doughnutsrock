@@ -1,7 +1,7 @@
 #Twitter, but awesomer
 
 ##THE GOAL
-- Twitter may be dominant today, but let's start work on the next big thing. You're going to make a micro blogging application called **GROWLER** using **Sinatra**. All the cool things we've covered this week will be put to use!
+- Twitter may be dominant today, but let's start working on the next big thing. You're going to make a micro blogging application called **GROWLER** using **Sinatra**. All the cool things we've covered this week will be put to use!
 
 - **User stories:**
   - The user can write growls (micro blogs) of 142 characters maximum
