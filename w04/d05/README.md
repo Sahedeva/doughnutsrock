@@ -60,6 +60,5 @@
 
 
 - **BONUSes**
-  - Add a tagging functionality 
-  - Add a search by tags functionality
-  - Add a commenting functionality
+  - Add tagging functionality 
+  - Add commenting functionality
