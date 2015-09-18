@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h2>Your Wish List</h2>
+
+<% if @shopping_cart.empty? %>
+	
+	<h4>I don't have anything added yet</h4>
+
+<% else %>
+
+	<h4>Here's what I added so far:</h4>
+	
+	<ul id="shopping-list">
+	<% @shopping_cart.each do |item| %>
+		<li><%= item %></li>
+	<% end %>
+	</ul>
+
+<% end %>
+
+<a href="/add_item">Add more stuff!</a>
+
+</body>
+</html>
