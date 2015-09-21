@@ -22,7 +22,7 @@ INSERT INTO students VALUES ('Slaggy McRaggy', 28);
 
 1. Do a `count` to verify how many records are in your database
 2. Update Johnny Bananas to have an age of 24
-3. Update Slaggy McRaggy to have the last name of 'Jolie' instead
+3. Update Slaggy McRaggy to have the last name of 'Raggy' instead
 4. View all the records and verify the data is correct 
 5. Delete the last student in the database
 6. View all the records and make sure the last student is no longer there
