@@ -14,10 +14,10 @@ Insert the following 4 students into the `students` table.
 You should come up with:
 
 ```sql
-INSERT INTO students VALUES ('Jilly Cakes', 30, '123 Webdev Dr., Austin, TX');
-INSERT INTO students VALUES ('Johnny Bananas', 25, '555 Five St, Round Rock, TX');
-INSERT INTO students VALUES ('Jackie Lackie', 101, '123 Fake Street, Austin, TX');
-INSERT INTO students VALUES ('Slaggy McRaggy', 28);
+INSERT INTO students (first_name, last_name, address) VALUES ('Jilly', 'Cakes', '123 Webdev Dr., Austin, TX');
+INSERT INTO students (first_name, last_name, address) VALUES ('Johnny', 'Bananas', '555 Five St, Round Rock, TX');
+INSERT INTO students (first_name, last_name, address) VALUES ('Jackie', 'Lackie', '123 Fake Street, Austin, TX');
+INSERT INTO students (first_name, last_name, address) VALUES ('Slaggy', 'McRaggy');
 ```
 
 1. Do a `count` to verify how many records are in your database
