@@ -99,6 +99,11 @@
 
 ## Databases
 
+##### Data Modeling/ERDs
+- [Data Modeling using ERD](http://www.codeproject.com/Articles/878359/Data-modelling-using-ERD-with-Crow-Foot-Notation): Walkthrough of how to use "crow foot notation" to create an ERD
+- [ERD Training Video](https://www.youtube.com/watch?v=-fQ-bRllhXc): Great video on what ERDs are, how they tie to our database, and how to create them
+- [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization): Wikipedia 
+
 ##### SQL
 - [Database Design](http://faculty.washington.edu/ocarroll/infrmatc/database/design/sld001.htm): A pretty good overview of good database design
 - [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/): Coding Horror explains SQL Joins
