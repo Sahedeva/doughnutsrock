@@ -1,10 +1,10 @@
 require 'active_record'
-require 'pry'
+# require 'pry'
 
 ActiveRecord::Base.establish_connection(
   adapter: "postgresql",
   host: "localhost",
-  username: "peterlai",
+  username: "robertweilbaecher",
   password: "",
   database: "moma_db"
 )
@@ -17,5 +17,5 @@ class Painting < ActiveRecord::Base
   belongs_to :artist
 end
 
-binding.pry
+# binding.pry
 
