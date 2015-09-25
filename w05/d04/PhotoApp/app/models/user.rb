@@ -1,5 +1,8 @@
 class User < ActiveRecord::Base
-	# attributes
+
+    has_many :photos
+
+    # attributes
     attr_accessor :password
 
     # check to see if a supplied user password matches the hashed version in the database
