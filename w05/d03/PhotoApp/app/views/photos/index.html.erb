@@ -1,0 +1,9 @@
+<ul>
+<% @photos.each do |photo| %>
+  <li>
+    <h3><%= photo.title %></h3>
+    <img src="<%= photo.path %>" >
+    <h6>By: <%= photo.user ? photo.user.first_name : "Someone" %></h6>
+  </li>
+<% end %>
+</ul>

@@ -1,0 +1,8 @@
+<ul>
+<% @photos.each do |photo| %>
+  <li>
+    <h3><%= photo.title %></h3>
+    <img src="<%= photo.path %>" >
+  </li>
+<% end %>
+</ul>

@@ -21,12 +21,15 @@ Create a Ruby program that creates an ActiveRecord interface for interacting wit
 __Do NOT create a menu in Ruby. You should be interacting with your program and ActiveRecord using `binding.pry`.__
 __Do NOT use TDD.__
 
-Populate your database (using ActiveRecord) with at least 3 Artists and 3 Paintings (associated correctly!), including Vincent Van Gogh and Pablo Picasso.
+
 
 ###Part 3 - ActiveRecord Practice
 
 Write the commands that you would enter in pry to do the following:
-Save the pry commands to a file called `ar_commands.txt`
+Save the pry commands to a file called `ar_commands.rb`
+
+
+Populate your database (using ActiveRecord) with at least 3 Artists and 3 Paintings (associated correctly!), including Vincent Van Gogh and Pablo Picasso.
 
 1. Create a new Artist (Vincent Van Gogh) and save him to your database
 2. Create a new Painting (Starry Night) and save it to your database
