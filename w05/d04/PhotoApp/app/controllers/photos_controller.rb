@@ -4,7 +4,7 @@ class PhotosController < ApplicationController
   before_action :photo_params, :only => [:create, :update]
 
 	def index
-    @photos = Photo.all
+    @photos = @current_user.photos
 	end
 
   def show
@@ -20,6 +20,8 @@ class PhotosController < ApplicationController
 
     if @photo.save
       redirect_to @photo
+    else
+      render :new
     end
   end
 
