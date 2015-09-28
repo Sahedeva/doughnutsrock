@@ -9,23 +9,23 @@
   * Larissa
   * Erich
   * Nicholas
--Group 3
- -Sean
- -Marco
- -Blair
- -Alejandro
--Group 4
-  -Kim
-  -Justin
-  -Rohit
-  -Jordan
-  -Akash
+- Group 3
+ * Sean
+ * Marco
+ * Blair
+ * Alejandro
+- Group 4
+  * Kim
+  * Justin
+  * Rohit
+  * Jordan
+  * Akash
 -Group 5
-  -Natalie
-  -Luke
-  -Cody
-  -Charlie
-  -Adam
+  * Natalie
+  * Luke
+  * Cody
+  * Charlie
+  * Adam
 
 
 ### SCRUM
