@@ -20,7 +20,7 @@
   * Rohit
   * Jordan
   * Akash
--Group 5
+- Group 5
   * Natalie
   * Luke
   * Cody
