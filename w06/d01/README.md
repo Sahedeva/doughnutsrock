@@ -1,4 +1,4 @@
-## PROJECT 2!!!!
+## PROJECT 2 RAILS!!!!
 - Group 1
   * Bob
   * Conner
