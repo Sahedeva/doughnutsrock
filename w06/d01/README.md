@@ -108,7 +108,7 @@ Your app must:
 - We will have scrum sessions every morning and afternoon, but we encourage your own group to conduct your own personal scrum sessions as well.
 
 ### BONUS IDEAS
-- *REMEMBER TO GET YOUR MVP DEPLOYED BEFORE YOU MOVE ON TO THE BONUS!!*
+**REMEMBER TO GET YOUR MVP DEPLOYED BEFORE YOU MOVE ON TO THE BONUS!!**
 - Implement User auth with Twitter, Google, or Facebook.
 - Implement another API you think would benefit this app.
 - Implement notifications.
