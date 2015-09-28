@@ -1,27 +1,27 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Building Your First Full-stack Application
 
-- Group 1
+- Group 1 **College Tracker App**
   * Bob
   * Conner
   * Lauren
   * Kyle
-- Group 2
+- Group 2 **MASH App**
   * Steve
   * Larissa
   * Erich
   * Nicholas
-- Group 3
+- Group 3 **I Heart Food**
  * Sean
  * Akash
  * Blair
  * Alejandro
-- Group 4
+- Group 4  **Board Game**
   * Kim
   * Justin
   * Rohit
   * Jordan
   * Marco
-- Group 5
+- Group 5  **Record App**
   * Natalie
   * Luke
   * Cody
