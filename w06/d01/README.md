@@ -12,7 +12,7 @@
   * Nicholas
 - Group 3
  * Sean
- * Marco
+ * Akash
  * Blair
  * Alejandro
 - Group 4
@@ -20,7 +20,7 @@
   * Justin
   * Rohit
   * Jordan
-  * Akash
+  * Marco
 - Group 5
   * Natalie
   * Luke
