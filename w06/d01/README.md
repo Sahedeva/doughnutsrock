@@ -1,4 +1,32 @@
 ## PROJECT 2!!!!
+-Group 1
+  -Bob
+  -Conner
+  -Lauren
+  -Kyle
+-Group 2
+  -Steve
+  -Larissa
+  -Erich
+  -Nicholas
+-Group 3
+ -Sean
+ -Marco
+ -Blair
+ -Alejandro
+-Group 4
+  -Kim
+  -Justin
+  -Rohit
+  -Jordan
+  -Akash
+-Group 5
+  -Natalie
+  -Luke
+  -Cody
+  -Charlie
+  -Adam
+
 
 ### SCRUM
 - We will have scrum sessions every morning and afternoon, but we encourage your own group to conduct your own personal scrum sessions as well.
