@@ -1,14 +1,14 @@
 ## PROJECT 2!!!!
--Group 1
-  -Bob
-  -Conner
-  -Lauren
-  -Kyle
--Group 2
-  -Steve
-  -Larissa
-  -Erich
-  -Nicholas
+- Group 1
+  * Bob
+  * Conner
+  * Lauren
+  * Kyle
+- Group 2
+  * Steve
+  * Larissa
+  * Erich
+  * Nicholas
 -Group 3
  -Sean
  -Marco
