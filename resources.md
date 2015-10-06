@@ -124,6 +124,18 @@
 
 ##### NoSQL
 
+## Testing
+- [Types of Testing](http://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test): Good StackOverflow answer about differences between unit, integration, and acceptance tests
+- [Introducing BDD](http://dannorth.net/introducing-bdd/): An introduction to BDD by the guy who pioneered the term, Dan North
+- [BDD, TDD, and the other Double D's](http://codebetter.com/jeremymiller/2007/09/06/bdd-tdd-and-the-other-double-d-s/): Description of TDD, BDD, and differences between them
+- [BDD vs TDD explained](https://www.youtube.com/watch?v=mT8QDNNhExg): Good video on differences between BDD and TDD
+
+##### Ruby Testing
+- [Rspec](http://rspec.info/): Testing framework for Ruby
+- [Relish documentation](http://www.relishapp.com/rspec/rspec-expectations/v/3-3/docs): Find the different types of built in matchers for Rspec and Cucumber
+- [Back to Basics: Writing Unit Tests First](https://robots.thoughtbot.com/back-to-basics-writing-unit-tests-first): Thoughtbot tutorial on how to write tests first
+- [Rspec and BDD](http://tutorials.jumpstartlab.com/topics/internal_testing/rspec_and_bdd.html): Jumpstart Labs article on how to use Rspec for BDD
+
 ## Security
 
 ##### User Auth and Password Security
