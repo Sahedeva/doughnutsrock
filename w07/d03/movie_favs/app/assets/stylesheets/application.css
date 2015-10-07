@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: #ddd;
+  font-family: Arial, sans-serif;
+  font-size: 14pt;
+}
+
+input[type='text'] {
+  font-size: 1.4em;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  height: 50px;
+  background-color: red;
+}
+
+ul {
+  list-style-type: none;
+}

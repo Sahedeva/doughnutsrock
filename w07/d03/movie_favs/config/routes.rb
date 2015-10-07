@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   root "application#index"
+
   resources :favorites, :except => [:edit, :new, :update]
 
   # The priority is based upon order of creation: first created -> highest priority.
