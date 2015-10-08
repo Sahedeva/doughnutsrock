@@ -4,14 +4,94 @@
   <title>FoodtruckApi</title>
   <link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
 
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon"></span> Create New Item</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+          	<input name="authenticity_token" id="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+            <div class="form-group">
+             
+              <input type="text" class="form-control" name="name" id="name" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+              
+              <input type="text" class="form-control" name="description" id="description" placeholder="Enter description">
+            </div>
+              <button type="submit" id="save-button" class="btn btn-success btn-block"><span class="glyphicon"></span> Save</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<script>
+$(document).ready(function(){
+    $(".new_item").click(function(){
+        $("#myModal").modal();
+    });
+
+    $('#save-button').on('click', function(evt) {
+    	var name = $('#name').val();
+    	var description = $('#description').val();
+
+    	console.log('name: ', name);
+    	console.log('description: ', description);
+
+    	$.ajax({
+    		url: '/items?authenticity_token=' + $('#authenticity_token').val(),
+    		method: 'post',
+    		dataType: 'json',
+    		data: {
+    			item: {
+    				name: name,
+    				description: description
+    			}
+    		},
+    		done: function(data, textStatus, jqXHR) {
+    			console.log('success!');
+    			console.log(data);
+    		},
+    		fail: function(err) {
+    			console.log('fail!');
+    			console.log(err);
+    		},
+    		always: function() {
+    			console.log('i always happen');
+    		}
+    	});
+
+    	return false;
+    });
+});
+</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
