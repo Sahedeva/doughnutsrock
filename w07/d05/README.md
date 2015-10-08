@@ -13,9 +13,9 @@ Make use of the fantastic and delicious https://api.doughnuts.ga API.  Your task
 #### Requirements
 
 - Implement a jQuery AJAX client for a simple REST service
-- Build an application that uses AJAX to update a client
-- Update an existing API resource from your client with new data
-- Destroy an existing API resource from your client
+- Add new data to an existing API resource from your client
+- Bonus: Build an application that uses AJAX to update a client
+- Bonus: Destroy an existing API resource from your client
 
 #### Deliverable
 
