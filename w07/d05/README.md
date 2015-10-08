@@ -2,7 +2,7 @@
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-You're about to write a lot of AJAX-backed JavaScript using jQuery that will complete our little Doughnut Shop app.
+You're about to write a lot of AJAX-backed JavaScript using jQuery for our little Doughnut Shop app.
 
 Make use of the fantastic and delicious https://api.doughnuts.ga.  Your task is to use your JS skills to list out all the doughnuts in our database and get our form working so we can add more.
 
