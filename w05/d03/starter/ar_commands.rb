@@ -1,10 +1,9 @@
 require_relative "moma"
 
-<<<<<<< HEAD
 class Artist < ActiveRecord::Base
 	a = Artist.new
 	a.name = 'Vincent Van Gogh'
-	a.nationality = 'American'
+	a.nationality = 'Dutch'
 	a.save
 
 	a = Artist.new
@@ -48,10 +47,29 @@ class Painting < ActiveRecord::Base
 	p.title = 'The Battle of Alexander'
 	p.artist_id = 3
 	p.save
+
+	p = Painting.new
+	p.title = 'Saltimbanques'
+	p.artist_id = 2
+	p.save
+
+	p = Painting.new
+	p.title = 'The Battle of Alexander'
+	p.artist_id = 3
+	p.save
+
+	p = Painting.new
+	p.title = 'The Battle of Alexander'
+	p.artist_id = 3
+	p.save
+
+	p = Painting.new
+	p.title = 'The Battle of Alexander'
+	p.artist_id = 3
+	p.save
+	
+	p = Painting.new
+	p.title = 'The Battle of Alexander'
+	p.artist_id = 3
+	p.save
 end
-=======
-Artist.create(name: 'Vincent Van Gogh', nationality: 'Dutch')
-
-Artist.create(name: 'Pablo Picasso', nationality: 'Spanish')
-
->>>>>>> 05c93f6e2f302571c6cea6ef8dd1d510ebf2f371

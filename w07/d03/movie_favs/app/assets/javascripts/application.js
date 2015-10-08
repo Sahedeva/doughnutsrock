@@ -12,8 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
-
+//= require jquery-ui
 
 $(function() {
 
@@ -22,18 +21,47 @@ $(function() {
     $.ajax({
       url: "http://www.omdbapi.com",
       data: {
-        s: "Danger Mouse",
-        type: "series"
+        s: $("#search-term").val()
       },
       dataType: "json",
       method: "GET",
       success: function(data, textStatus, jqXHR) {
+        $("#results").html('');
         for (var i = 0; i < data['Search'].length; i++) {
-          $("#results").append("<li>"+ data['Search'][i]['Title'] + ", " + data['Search'][i]['Year'] +"</li>")
+          $("#results").append("<li>"+ data['Search'][i]['Title'] + ", " + data['Search'][i]['Year']+data['Search'][i]['imdbID']+"</li><button id='fav'>Favorite</button>")
         }
+         $("#fav").on("click", function(){
+      var movie_name = $(this).val();
+      console.log(movie_name);
+
+
+   });
       }
     });
 
+  
+
   });
+
+  // $("#search-term").autocomplete({
+  //     minLength: 3,
+  //     source: function (request, response) {
+  //       var titles = [];
+  //       $.ajax({
+  //         url: "http://www.omdbapi.com",
+  //         data: {
+  //           s: request.term
+  //     },
+  //     dataType: "json",
+  //     method: "GET",
+  //     success: function(data, textStatus, jqXHR) {
+  //       for (var i = 0; i < data['Search'].length; i++) {
+  //         titles.push(data['Search'][i]['Title']);
+  //       }
+  //       response(titles);
+  //       }
+  //     });
+  //   }
+  // });
 
 });
