@@ -1,6 +1,6 @@
 # Practicing AJAX
 
-**Note:** This can be a pair programming activity or done independently.
+**Note: This can be a pair programming activity or done independently.**
 
 You're about to write a lot of AJAX-backed JavaScript using jQuery for our little Doughnut Shop app.
 
