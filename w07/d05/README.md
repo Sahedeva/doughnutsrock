@@ -4,7 +4,7 @@
 
 You're about to write a lot of AJAX-backed JavaScript using jQuery for our little Doughnut Shop app.
 
-Make use of the fantastic and delicious https://api.doughnuts.ga.  Your task is to use your JS skills to list out all the doughnuts in our database and get our form working so we can add more.
+Make use of the fantastic and delicious https://api.doughnuts.ga API.  Your task is to use your JS skills to list out all the doughnuts in our database and get our form working so we can add more.
 
 > Note: Keep in mind, this API doesn't persist (so that other students can use it, too), but it does _act_ like it. When you create a new doughnut, it'll show you results as if that doughnut was persisted. Make use of it!
 
