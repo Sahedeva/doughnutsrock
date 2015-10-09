@@ -1,7 +1,5 @@
 # Practicing AJAX
 
-**Note: This can be a pair programming activity or done independently.**
-
 You're about to write a lot of AJAX-backed JavaScript using jQuery for our little Doughnut Shop app.
 
 Make use of the fantastic and delicious https://api.doughnuts.ga API.  Your task is to use your JS skills to list out all the doughnuts in our database and get our form working so we can add more.
