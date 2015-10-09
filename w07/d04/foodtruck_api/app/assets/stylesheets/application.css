@@ -13,44 +13,55 @@
  *= require_tree .
  *= require_self
  */
-
 body {
-<<<<<<< HEAD
-	background-color: #ddd;
-	font-family: Arial, sans-serif;
-	font-size: 18pt;
+	font-family: 'Arimo', sans-serif;
+	padding: 5% 14%;
+}
+a {
+	font-size: 110%;
 }
 
-input[type='text'] {
-	font-size: 20px;
-	padding: 10px;
-	border-radius: 10px;
+table {
+	margin-top: 50px;
 }
 
-button {
-	height: 40px;
-	border-radius: 5px;
-	color: red;
-	font-size: 18px;
+td, th {
+	padding: 2px 15px;
+	font-size: 110%;
 }
-=======
-  background-color: #ddd;
-  font-family: Arial, sans-serif;
-  font-size: 14pt;
+th {
+	padding-bottom: 14px;
 }
-
-input[type='text'] {
-  font-size: 1.4em;
-  padding: 10px;
-  border-radius: 10px;
+td a {
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 75%;
 }
 
-button {
-  height: 50px;
-  background-color: red;
+input {
+	width: 300px;
 }
 
-ul {
-  list-style-type: none;
+.cta {
+	margin-top: 24px;
+	padding: 7px 0;
 }
->>>>>>> b1275f65e5ce6f5ab33c151bd326e47ae886666d
+
+.cta a {
+	font-size: 120%;
+	width: 200px;
+	background: black;
+	color: white;
+	padding: 5px;
+}
+
+.modal-header, h4, .close {
+  background-color: #5cb85c;
+  color:white !important;
+  text-align: center;
+  font-size: 30px;
+}
+  
+.modal-footer {
+  background-color: #f9f9f9;
+}
