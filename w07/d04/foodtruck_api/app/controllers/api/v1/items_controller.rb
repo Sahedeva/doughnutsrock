@@ -1,4 +1,5 @@
 module Api
+<<<<<<< HEAD
 	module V1
 		class ItemsController < ApplicationController
 			before_action :set_item, only: [:show, :edit, :update, :destroy]
@@ -41,3 +42,17 @@ module Api
 		end
 	end
 end
+=======
+  module V1
+    class ItemsController < ApplicationController
+
+      def index
+        @items = Item.all
+
+        render json: @items
+      end
+
+    end
+  end
+end
+>>>>>>> de0deb18c536f5c1994845fca2b61939cf259431
