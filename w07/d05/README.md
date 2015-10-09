@@ -26,6 +26,10 @@ Make a list of existing doughnuts underneath the form, make the form work, and t
 * Add links that will show a single doughnut in a modal
 * Add links that will also delete a doughnut from the page (Remember that the data does not persist, so refreshing the page will bring it back, but let's fake it and remove it from the page for now)
 
+##### Super Bonus
+
+* Add the ability to update a doughnut. This is a little tougher to pull off in regards to the UI
+
 ## Additional Resources
 
 - [The Official Doughnut API](https://www.doughnuts.ga/)
